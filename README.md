@@ -319,29 +319,6 @@ if (millis() - startTime > 15000) {  // 15 second timeout
   // Attempt reconnection
 }
 ```
-
----
-
-## 🐛 Troubleshooting
-
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| MPU6050 not initializing | I2C connection issue | Check SDA/SCL wiring (GPIO 21, 22) |
-| LoRa not initializing | SPI pins incorrect | Verify CS, RST, DIO0 pins |
-| No LoRa communication | Different frequency | Both must use 433E6 |
-| WiFi not connecting | Wrong credentials | Update SSID/password in code |
-| SMS not sending | API key invalid | Check CircuitDigest dashboard |
-| Receiver receives garbled data | Poor signal | Move antennas closer, check antenna type |
-| High false alarms | Threshold too low | Increase impact/rotation thresholds |
-
----
-
-## 📝 License
-
-This project is provided as-is for educational and research purposes.
-
----
-
 ## 👤 Author
 
 **yuviiios** - Vehicle Accident Detection & Emergency Alert System
@@ -357,20 +334,3 @@ This project is provided as-is for educational and research purposes.
 - Arduino LoRa Library: https://github.com/sandeepmistry/arduino-LoRa
 
 ---
-
-## 🤝 Contributing
-
-Feel free to fork, modify, and improve this system. Some areas for enhancement:
-- Machine learning classification for better accident detection
-- GPS integration for location tracking
-- Cloud-based alert dashboard
-- Multiple receiver support
-- Backup cellular/GPS communication
-
----
-
-## 📞 Support
-
-For issues, questions, or improvements, please refer to the research paper included in this repository.
-
-**Happy Coding! 🚗⚡**
