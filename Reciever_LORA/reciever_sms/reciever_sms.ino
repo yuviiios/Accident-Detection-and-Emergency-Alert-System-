@@ -10,12 +10,12 @@
 #define DIO0 26
 
 // 🔹 WiFi
-const char* ssid = "VINTAGE";
-const char* password = "yuvraj69";
+const char* ssid = "your_wifi";
+const char* password = "wifi_passkey";
 
 // 🔹 SMS API
-const char* apiKey = "cd_yuv_250326_-LM8yK";
-const char* mobileNumber = "919771892911";
+const char* apiKey = "sms_api";
+const char* mobileNumber = "91XXXXXXXXXX";
 
 bool alertSent = false;
 
